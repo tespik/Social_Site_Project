@@ -1,0 +1,112 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#navbar{
+  display: flex;
+}
+
+.left{
+    display: block;
+    padding-top: 50px;
+    left: 100px;
+    position:absolute;
+}
+
+.left a{
+  font-size: large;
+  color: #038cfc;
+  text-decoration: none;
+}
+
+.leftnav{
+  font-family: 'Kanit', sans-serif;
+}
+
+.left a:hover{
+    color: #03c2fc;
+}
+
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 100px;
+    top: 20px;
+}
+
+.nav{
+  display: flex;
+  font-family: 'Kanit', sans-serif;
+}
+
+.nav li{
+    font-size: 2rem;
+    list-style: none;
+    padding: 20px;
+}
+.nav li a{
+    color: white;
+    padding-top: 10px;
+    text-decoration: none;
+    display: contents;
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav li a:hover{
+    color: red;
+}
+
+.mycontent{
+  padding-top : 300px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.btn{
+	background-color: Green;
+	background-image: linear-gradient(90deg, var(--blue) 0%, var(--lightblue) 74%);
+	border-radius: 20px;
+	border: 1px solid var(--blue);
+	color: var(--white);
+	cursor: pointer;
+	font-size: 1.5rem;
+	font-weight: bold;
+	letter-spacing: 0.1rem;
+	padding: 0.9rem 4rem;
+	transition: transform 80ms ease-in;
+}
+
+.btn:active {
+	transform: scale(0.95);
+}
+
+.btn:focus {
+	outline: none;
+}
+
+.colorgraph {
+  height: 5px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+
+#note {
+  position: absolute;
+  color: rgba(249,241,204,1);
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  margin: auto;
+  text-align: center;
+  user-select: none;
+  font-family: Arial;
+}
